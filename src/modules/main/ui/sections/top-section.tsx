@@ -1,16 +1,8 @@
 import { Zap } from "lucide-react";
 import { Progress } from "@/components/ui/progress";
-import { stats } from "../../constants";
+import { activationStats, stats } from "../../constants";
 
 export const TopSection = () => {
-  const activationStats = [
-    { key: "Signed up", value: 100 },
-    { key: "Setup", value: 80 },
-    { key: "Aha moment", value: 60 },
-    { key: "Activated", value: 40 },
-    { key: "Active", value: 80 },
-  ];
-
   return (
     <div className="w-full bg-[#D0F1FD] h-[350px] rounded-xl relative flex items-start justify-start p-8">
       <h1 className="text-[#013158] font-bold text-2xl w-xs">
